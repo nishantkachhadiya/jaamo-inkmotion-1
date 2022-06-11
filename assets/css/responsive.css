@@ -1,0 +1,3039 @@
+/*------------------------------- Container Size Reswponsive Css Strat ----------------------------------*/
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+@media screen and (min-width: 1441px) and (max-width: 1530px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+@media screen and (min-width: 1531px) and (max-width: 1800px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+@media screen and (min-width: 1801px) {
+    .container {
+        max-width: 1560px;
+    }
+    header .container {
+        max-width: 1800px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .submenu--inner-col {
+        padding-right: 60px;
+    }
+    .submenu--inner-col + .submenu--inner-col {
+        padding: 0 0 0 60px;
+    }
+    .submenu--inner--block{
+        max-width: 1300px;
+    }
+    .home-banner-bg-block{
+        max-width: 760px;
+    }
+    .common-section-title h2{
+        font-size: 60px;
+    }
+    .unsere-image-block{
+        width: 950px;
+    }
+    .unsere-content-block {
+        width: calc(100% - 950px);
+    }
+    .unsere-leistungen-section:before, .unsere-bottom-shape-block{
+        max-width: 1350px;
+    }
+    .unsere-small-image{
+        right: -220px;
+        max-width: 300px;
+    }
+    .un-artists-title-img {
+        max-width: 270px;
+    }
+    .t-text{
+        font-size: 865px;
+    }
+    .leistungen-page .home-banner-content-block{
+        left: 15%;
+    }
+    .sec-artwork-image-large{
+        max-width: 960px;
+    }
+
+    /*-------------- Contact Page Start --------------*/
+    .common-banner-section .home-banner-content-block {
+        margin-left: 280px;
+    }
+    .telephone_block h3 a {
+        font-size: 46px;
+    }
+    /*-------------- Contact Page End --------------*/
+    /*-------------- News Page Start --------------*/
+    .news-page .common-banner-section .home-banner-content-block {
+        margin-left: 365px;
+    }
+    /*-------------- News Page End --------------*/
+    /*-------------- Studio Page Start --------------*/
+    .studio-page .common-banner-section .home-banner-content-block {
+        margin-left: 354px;
+    }
+    .das_long_img {
+        max-width: 600px;
+        height: 900px;
+    }
+    .skin_stories_text {
+        bottom: -190px;
+    }
+    .prozente_section p {
+        font-size: 22px;
+    }
+    .jetzt_image_block {
+        max-width: 677px;
+    }
+    .slider-thumb {
+        margin-left: 0;
+    }
+    .slider-thumb .slick-slide {
+        margin: 60px 0;
+    }
+    .slider-preview {
+        padding: 0 15px;
+        width: 700px;
+    }
+    .slider-preview .type-image {
+        height: 550px;
+    }
+    /*-------------- Studio Page End --------------*/
+    /*-------------- Artist Page Start --------------*/
+    .maxime_section {
+        padding-top: 180px;
+    }
+    .maxime_section .unsere-artists-titel h3 {
+        margin-bottom: 10px;
+    }
+    .maxime_section .unsere-artists-img-block {
+        max-width: 358px;
+    }
+    .maxime_info {
+        padding-bottom: 30px;
+    }
+    .maxime_btn {
+        margin-top: 50px;
+    }
+    .quote_one {
+        top: -40px;
+        left: -10px;
+    }
+    .quote_two {
+        bottom: 90px;
+        right: -10px;
+    }
+    /*-------------- Artist Page End --------------*/
+}
+@media screen and (max-width: 1600px) {
+    .home-banner-bg-block {
+        max-width: 650px;
+    }
+    .home-main-title h1{
+        font-size: 100px;
+    }
+    .home-banner-content-block{
+        max-width: 740px;
+        left: 11%;
+    }
+    .unsere-leistungen-section:before, .unsere-bottom-shape-block {
+        max-width: 1170px;
+    }
+    .unsere-content-block{
+        padding-left: 60px;
+    }
+    .unsere-left-shape-block{
+        max-width: 300px;
+    }
+    .u-text{
+        font-size: 700px;
+        left: -10%;
+    }
+    .d-text{
+        font-size: 700px;
+        top: 70%;
+        right: -9%;
+    }
+    .t-text {
+        font-size: 700px;
+        top:4%;
+    }
+    .common-star span {
+        margin-right: 2px;
+        font-size: 16px;
+    }
+    .common-div-half-content .common-desc p{
+        font-size: 20px;
+    }
+    .common-div-half-content .common-desc {
+        padding: 25px 0 40px;
+    }
+    .galerie-bottom-shape svg{
+        max-width: 480px;
+    }
+    .leistungen-page .home-banner-content-block {
+        left: 31%;
+    }
+    .leistungen-page .common-banner-section .home-banner-three-label{
+        padding-left: 30%;
+    }
+    .leistungen-page .common-banner-section .home-banner-content-block{
+        max-width: 974px;
+        margin-left: 0;
+    }
+    .klassisches-owl .item{
+        max-width: 1400px;
+    }
+    .klassisches-image-block{
+        max-width: 1000px;
+    }
+    .klassisches-content-block{
+        padding: 40px 70px 40px 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: unset;
+    }
+    .left-item .klassisches-content-block{
+        padding: 40px 15px 40px 70px;
+    }
+    .unsere-artworks-image-large {
+        max-width: 480px;
+    }
+    .sec-artwork-image-large {
+        max-width: 870px;
+    }
+
+    /*-------------- Contact Page Start --------------*/
+    .common-banner-section .home-banner-content-block {
+        margin-left: 270px;
+        top: 56%;
+    }
+    .common-banner-section .home-banner-three-label {
+        margin-top: 70px;
+    }
+    .common-banner-section .home-main-title h1 {
+        font-size: 110px;
+    }
+    .telephone_block {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contact_section {
+        padding-top: 120px;
+    }
+    .map_section {
+        padding-top: 150px;
+    }
+    /*-------------- Contact Page End --------------*/
+    /*-------------- News Page Start --------------*/
+    .haben_section {
+        padding-top: 100px;
+    }
+    .section_underline {
+        padding-bottom: 80px;
+    }
+    .haben_block2,
+    .haben_block3 {
+        padding-top: 80px;
+    }
+    .jetzt_section {
+        margin-top: 200px;
+    }
+    /*-------------- News Page End --------------*/
+    /*-------------- Studio Page Start --------------*/
+    .skin_stories_text .skin_text h2 {
+        font-size: 48px;
+        max-width: 461px;
+    }
+    .skin_stories_text {
+        bottom: -140px;
+    }
+    .dein_title h3 {
+        font-size: 154px;
+    }
+    .dein_inner {
+        padding-top: 227px;
+    }
+    .jetzt_bottom {
+        padding-bottom: 230px;
+    }
+    /*-------------- Studio Page End --------------*/
+}
+@media screen and (max-width: 1530px) {
+    /*-------------- Contact Page Start --------------*/
+    .telephone_block h3 a {
+        font-size: 42px;
+    }
+    /*-------------- Contact Page End --------------*/
+    /*-------------- News Page Start --------------*/
+    .haben_block2,
+    .haben_block3 {
+        padding-top: 60px;
+    }
+    .section_underline {
+        padding-bottom: 60px;
+    }
+    .muskelaufbau-rd p {
+        margin-top: 40px;
+    }
+    .jetzt_block {
+        max-width: calc(100% - 635px);
+    }
+    .jetzt_image_block {
+        max-width: 635px;
+    }
+    .jetzt_block h3 {
+        font-size: 55px;
+        line-height: 1.4;
+    }
+    .jetzt_block p {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    /*-------------- News Page End --------------*/
+    /*-------------- Studio Page Start --------------*/
+    .das_long_img {
+        max-width: 560px;
+        height: 850px;
+    }
+    .dein_inner {
+        padding-top: 181px;
+    }
+    .das_section {
+        padding-top: 100px;
+    }
+    .prozente_section p {
+        font-size: 20px;
+    }
+    .tabular_section {
+        padding-top: 200px;
+    }
+    .tab_buttons button {
+        padding: 5px 40px;
+        font-size: 23px;
+    }
+    .table_btn {
+        padding-top: 170px;
+    }
+    .data_list {
+        padding-bottom: 45px;
+    }
+    .jetzt_section {
+        margin-top: 150px;
+    }
+    .slider-thumb .slick-slide {
+        height: 350px;
+    }
+    .slider-thumb {
+        width: 410px;
+    }
+    .slider-preview .type-image {
+        height: 510px;
+    }
+    .jetzt_bottom {
+        padding-bottom: 200px;
+    }
+    /*-------------- Studio Page End --------------*/
+    /*-------------- Artist Page Start --------------*/
+    .unser_block .row .col-12:nth-child(n+5) {
+        padding-top: 60px;
+    }
+    .unser_upper_text h4 {
+        font-size: 32px;
+    }
+    .unser_img svg {
+        width: 250px;
+        height: 250px;
+    }
+    .unser_tatto_section {
+        position: relative;
+        padding-top: 100px;
+    }
+    .unser_link a {
+        margin-top: 10px;
+    }
+    .unser_info_block {
+        margin-top: -50px;
+    }
+    .maxime_section .unsere-artists-img-block {
+        max-width: 308px;
+    }
+    .maxime_info {
+        max-width: 600px;
+    }
+    .maxime_section .unsere-artists-titel h3 {
+        margin-bottom: 5px;
+    }
+    .round_arrow svg {
+        margin-bottom: 0px;
+        margin-left: 40px;
+    }
+    .maxime_section .unsere-artists-titel h3 {
+        font-size: 30px;
+    }
+    .maxime_section .unsere-artists-content {
+        bottom: 46px;
+    }
+    .gallary_image_block {
+        height: 260px;
+    }
+    .gallary_block .row .gallary_img_box:nth-child(n+7) {
+        padding-top: 30px;
+    }
+    .gallary_section {
+        padding-top: 200px;
+    }
+    /*-------------- Artist Page End --------------*/
+}
+@media screen and (max-width: 1440px) {
+    .submenu--inner--content ul li{
+        width: 33.333%;
+    }
+    .submenu--inner--block {
+        max-width: 1010px;
+    }
+    .home-banner-bg-block {
+        max-width: 580px;
+    }
+    .home-main-title h1 {
+        font-size: 80px;
+        letter-spacing: 15px;
+    }
+    .home-banner-content-block {
+        max-width: 580px;
+        left: 7%;
+    }
+    .home-banner-three-label{
+        padding-left: 0;
+    }
+    .common-section-title h2, .footer-logo a {
+        font-size: 50px;
+        letter-spacing: 6px;
+    }
+    .hygiene-box {
+        max-width: 100%;
+        text-align: center;
+    }
+    .hygiene-icon {
+        margin: 0 auto;
+    }
+    .hygiene-title h3 a{
+        font-size: 24px;
+        margin: 30px 0;
+    }
+    .hygiene-slider-section {
+        padding: 60px 0;
+    }
+    .mobile-slider-item{
+        display: block;
+    }
+    .unsere-leistungen-section:before, .unsere-bottom-shape-block {
+        max-width: 1090px;
+    }
+    .unsere-large-image img{
+        min-height: 450px;
+        object-fit: cover;
+    }
+    .unsere-content-block {
+        width: calc(100% - 760px);
+    }
+    .unsere-image-block {
+        width: 760px;
+    }
+    .unsere-urlhash-ul ul li + li {
+        margin-left: 40px;
+    }
+    .unsere-urlhash-ul ul li.active a{
+        font-size: 25px;
+    }
+    .un-artists-title-img {
+        max-width: 200px;
+    }
+    .un-artists-title-img a p{
+        font-size: 24px;
+        margin-top: -50px;
+        margin-left: 15px;
+    }
+    .un-artists-box .common-mehre-dazu {
+        margin-left: 15px;
+    }
+    .hol-dir-weitere-content{
+        max-width: 750px;
+    }
+    .hol-dir-weitere-section{
+        padding: 170px 0;
+    }
+    .galerie-bottom-shape svg {
+        max-width: 390px;
+    }
+    .faq-row{
+        margin: 0 -25px;
+    }
+    .faq-col{
+        padding: 0 25px;
+    }
+    .n-text{
+        font-size: 450px;
+        right: 0;
+    }
+    .footer-wrapper{
+        margin-top: 140px;
+    }
+    .leistungen-page .common-banner-section .home-banner-three-label {
+        margin-top: 50px;
+    }
+    .klassisches-content-block{
+        max-width: 600px;
+    }
+    .klassisches-owl .item + .item {
+        margin-top: 180px;
+    }
+    .unsere-artworks-image-large {
+        max-width: 400px;
+    }
+    .unsere-artworks-image-small {
+        max-width: 280px;
+        margin-left: 30px;
+    }
+    .sec-artwork-image-large {
+        max-width: 850px;
+        margin-left: 30px;
+    }
+    .unsere-artworks-gallary-2{
+        margin-top: 30px;
+    }
+
+    /*-------------- Contact Page Start --------------*/
+    .common-banner-section .banner_info h2 {
+        padding-bottom: 18px;
+        font-size: 25px;
+    }
+    .common-banner-section .home-main-title h1 {
+        font-size: 85px;
+    }
+    .common-banner-section .home-banner-three-label {
+        margin-top: 50px;
+    }
+    .common-banner-section .home-banner-content-block {
+        margin-left: 330px;
+    }
+    .common-banner-section .home-banner-three-label {
+        padding-left: 30%;
+    }
+    .common-banner-section .banner_info {
+        max-width: 530px;
+        margin-bottom: 40px;
+    }
+    .telephone_block h3 a {
+        font-size: 36px;
+    }
+    .tatto_price_block {
+        padding: 50px 0;
+    }
+    .map_box {
+        height: 700px;
+    }
+    /*-------------- Contact Page End --------------*/
+    /*-------------- News Page Start --------------*/
+    .jetzt_block {
+        max-width: calc(100% - 555px);
+    }
+    .jetzt_image_block {
+        max-width: 555px;
+    }
+    .jetzt_block h3 {
+        font-size: 47px;
+    }
+    .jetzt_section {
+        margin-top: 130px;
+    }
+    /*-------------- News Page End --------------*/
+    /*-------------- Studio Page Start --------------*/
+    .dein_title h3 {
+        font-size: 123px;
+    }
+    .dein_info_block p {
+        max-width: 500px;
+    }
+    .skin_stories_text .skin_text h2 {
+        font-size: 40px;
+    }
+    .das_long_img {
+        max-width: 500px;
+    }
+    .dein_info_block .common-section-btn {
+        margin-top: 40px;
+    }
+    .dein_title {
+        top: -90px;
+    }
+    .dein_inner {
+        padding-top: 152px;
+    }
+    .tabcontent {
+        padding: 60px 50px;
+    }
+    .rightside_data {
+        padding-left: 60px;
+    }
+    .leftside_data {
+        padding-right: 60px;
+    }
+    .data_list p,
+    .data_list span {
+        font-size: 20px;
+    }
+    .tab_buttons button {
+        padding: 5px 30px;
+        font-size: 20px;
+    }
+    #gray_lines {
+        width: 300px;
+        top: -36px;
+    }
+    .slider-thumb .slick-slide {
+        height: 300px;
+        margin: 50px 0;
+    }
+    .slider-thumb {
+        width: 310px;
+    }
+    .slider-preview .type-image {
+        height: 480px;
+    }
+    /*-------------- Studio Page End --------------*/
+    /*-------------- Artist Page Start --------------*/
+    .unser_block {
+        padding-top: 50px;
+    }
+    .unser_upper_text h4 {
+        font-size: 30px;
+    }
+    .unser_img svg {
+        width: 230px;
+        height: 230px;
+    }
+    .maxime_section .unsere-artists-content {
+        max-width: 181px;
+        bottom: 26px;
+        right: -145px;
+    }
+    .maxime_info {
+        max-width: 500px;
+    }
+    .quote_one svg,
+    .quote_two svg {
+        width: 30px;
+    }
+    .quote_one {
+        top: -30px;
+        left: 10px;
+    }
+    .quote_two {
+        bottom: 100px;
+        right: 0px;
+    }
+    .artwork_small_img_block {
+        height: 330px;
+    }
+    .artwork_big_img_block {
+        height: 630px;
+    }
+    .artwork_block .row:last-child {
+        margin-top: 30px;
+    }
+    .artwork_section {
+        padding-top: 170px;
+    }
+    .artwork_block .common-section-title {
+        padding-bottom: 80px;
+    }
+    .gallary_image_block {
+        height: 230px;
+    }
+    .load_more_btn {
+        padding-top: 60px;
+    }
+    /*-------------- Artist Page End --------------*/
+}
+@media screen and (max-width: 1360px) {
+    /*-------------- Studio Page Start --------------*/
+    .studio-page .common-banner-section .home-banner-three-label {
+        padding-left: 24%;
+    }
+    .prozente_section .jetzt_block p {
+        padding-bottom: 40px;
+    }
+    .jetzt_bottom {
+        padding-bottom: 180px;
+    }
+    /*-------------- Studio Page End --------------*/
+    /*-------------- Artist Page Start --------------*/
+    .unser_tatto_section {
+        padding-top: 70px;
+    }
+    .unser_block .row .col-12:nth-child(n+5) {
+        padding-top: 40px;
+    }
+    .maxime_section {
+        padding-top: 100px;
+    }
+    /*-------------- Artist Page End --------------*/
+}
+@media screen and (max-width: 1280px) {
+    .unsere-leistungen-section:before, .unsere-bottom-shape-block {
+        max-width: 1010px;
+    }
+    .u-text{
+        font-size: 600px;
+    }
+    .d-text {
+        font-size: 600px;
+        top: 75%;
+    }
+    .das-sagen-owl.owl-carousel .owl-nav .owl-next {
+        right: -10%;
+    }
+    .das-sagen-owl.owl-carousel .owl-nav .owl-prev {
+        left: -10%;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 100%;
+    }
+    .menu-nav ul > li{
+        margin-right: 20px;
+    }
+    .submenu--inner--content ul li{
+        width: 50%;
+        margin-right: 0;
+    }
+    .submenu--inner--block {
+        max-width: 720px;
+    }
+    .wenn-nur-das-section {
+        padding: 80px 0;
+    }
+    .hygiene-slider-block{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .unsere-leistungen-section:before, .unsere-bottom-shape-block {
+        max-width: 100%;
+    }
+    .unsere-leistungen-section{
+        margin: 70px 0;
+    }
+    .unsere-leistungen-ttile-block{
+        flex-flow: column;
+    }
+    .unsere-leistungen-ttile-block .common-section-title {
+        margin-bottom: 25px;
+    }
+    .unsere-leistungen-slider-block {
+        padding-top: 60px;
+    }
+    .unsere-content-block {
+        width: calc(100% - 650px);
+    }
+    .unsere-image-block {
+        width: 650px;
+    }
+    .unsere-small-image {
+        right: -200px;
+        max-width: 260px;
+        bottom: -50px;
+    }
+    .un-artists-title-img {
+        margin: 0 auto;
+    }
+    .un-artists-box .common-mehre-dazu {
+        max-width: 200px;
+        margin: 10px auto 0;
+        padding-left: 8%;
+    }
+    .unsere-artists-owl.owl-carousel .owl-nav button.owl-next {
+        right: -10%;
+    }
+    .unsere-artists-owl.owl-carousel .owl-nav button.owl-prev {
+        left: -15%;
+    }
+    .u-text {
+        font-size: 450px;
+    }
+    .d-text {
+        font-size: 450px;
+        right: -7%;
+    }
+    .das-sagen-section {
+        padding: 0px 0 150px;
+    }
+    .das-sagen-slider{
+        max-width: 770px;
+    }
+    .das-sagen-content .common-desc p, .das-sagen-client-name h4{
+        font-size: 18px;
+    }
+    .das-sagen-box-clip-path{
+        padding: 100px 15px 15px 45px;
+        min-height: 300px;
+    }
+    .das-sagen-content .common-desc{
+        max-width: 635px;
+    }
+    .das-sagen-box:after{
+        width: calc(100% - 390px);
+        left: 17px;
+    }
+    .quotes-icon{
+        max-width: 35px;
+    }
+    .das-sagen-img {
+        min-width: auto;
+        margin-right: 18px;
+        max-width: 60px;
+    }
+    .hol-dir-weitere-section {
+        padding: 130px 0;
+    }
+    .common-div-half-image img{
+        min-height: 320px;
+        object-fit: cover;
+    }
+    .common-col-div-section {
+        padding: 130px 0;
+    }
+    .galerie-slider-block{
+        padding-top: 70px;
+    }
+    .ct_accordion_lable h3{
+        line-height: 1.8;
+    }
+    .faq-red-icon {
+        top: -2px;
+    }
+    .haufig-faq-block{
+        margin-top: 70px;
+    }
+    .haufig-faq-section {
+        padding-bottom: 130px;
+    }
+    .footer-wrapper {
+        margin-top: 115px;
+    }
+    .n-text {
+        font-size: 300px;
+        bottom: -23%;
+    }
+    .leistungen-page .common-banner-section .home-banner-three-label {
+        padding-left: 10%;
+    }
+    .leistungen-page .home-banner-content-block {
+        left: 40%;
+    }
+    .klassisches-section{
+        padding: 80px 0;
+    }
+    .klassisches-image-block {
+        max-width: 780px;
+    }
+    .klassisches-content-block {
+        max-width: 480px;
+    }
+    .klassisches-content-block{
+        padding: 35px 35px 35px 15px;
+        top: 60%;
+    }
+    .left-item .klassisches-content-block {
+        padding: 35px 15px 35px 35px;
+    }
+    .un-tattoo-artists-section{
+        padding-top: 100px;
+    }
+    /*-------------- Contact Page Start --------------*/
+    .common-banner-section .home-banner-content-block {
+        margin-left: 250px;
+    }
+    .common-banner-section .home-banner-three-label {
+        padding-left: 17%;
+    }
+    .telephone_block h3 a {
+        font-size: 31px;
+    }
+    .common-section-title p {
+        font-size: 25px;
+    }
+    .map_box {
+        height: 600px;
+    }
+    /*-------------- Contact Page End --------------*/
+    /*-------------- News Page Start --------------*/
+    .news-page .common-banner-section .home-banner-content-block {
+        margin-left: 335px;
+    }
+    .news-page .common-banner-section .home-banner-three-label {
+        padding-left: 5%;
+    }
+    .was_haben_inner h2 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+    .muskelaufbau-rd p {
+        margin-top: 20px;
+    }
+    .was_haben_inner .was_date {
+        font-size: 16px;
+    }
+    .d-buchen {
+        margin-top: 20px;
+    }
+    .jetzt_block h3 {
+        font-size: 33px;
+    }
+    .jetzt_block {
+        max-width: calc(100% - 467px);
+    }
+    .jetzt_image_block {
+        max-width: 467px;
+    }
+    /*-------------- News Page End --------------*/
+    /*-------------- Studio Page Start --------------*/
+    .studio-page .common-banner-section .home-banner-content-block {
+        margin-left: 254px;
+    }
+    .studio-page .common-banner-section .home-banner-three-label {
+        padding-left: 14%;
+    }
+    .dein_title {
+        left: 0;
+    }
+    .das_section {
+        padding-top: 30px;
+    }
+    .dein_title h3 {
+        font-size: 103px;
+    }
+    .das_long_img {
+        max-width: 440px;
+    }
+    .prozente_section p {
+        font-size: 16px;
+    }
+    .tabular_section {
+        padding-top: 140px;
+    }
+    .tabcontent {
+        padding: 50px 40px;
+    }
+    .slider-thumb {
+        margin: 0 auto;
+    }
+    .slider-thumb .slick-slide {
+        margin: 40px 0;
+    }
+    .slider-preview {
+        margin-right: 30px;
+        width: 510px;
+    }
+    .slider-preview .type-image {
+        height: 430px;
+    }
+    .slider-gallery .slider-thumb .slider_arow_up {
+        top: 160px;
+    }
+    .slider-gallery .slider-thumb .slider_arow_down {
+        bottom: 160px;
+    }
+    .studio_slider_section {
+        margin-top: 300px;
+    }
+    .jetzt_bottom {
+        padding-bottom: 160px;
+    }
+    /*-------------- Studio Page End --------------*/
+    /*-------------- Artist Page Start --------------*/
+    .unser_img svg {
+        width: 200px;
+        height: 200px;
+    }
+    .unser_link a .arrow {
+        margin-left: 10px;
+    }
+    .unser_upper_text h4 {
+        font-size: 23px;
+    }
+    .unser_link a {
+        margin-top: 10px;
+    }
+    .unser_piercing_section {
+        padding-top: 140px;
+    }
+    .quote_icon svg {
+        width: 27px;
+    }
+    .maxime_info {
+        max-width: 390px;
+    }
+    .maxime_section {
+        padding-top: 110px;
+    }
+    .artwork_small_img_block {
+        height: 280px;
+    }
+    .artwork_big_img_block {
+        height: 550px;
+    }
+    .artwork_section {
+        padding-top: 110px;
+    }
+    .artwork_block .common-section-title {
+        padding-bottom: 50px;
+    }
+    .gallary_block .row .gallary_img_box:nth-child(n+5) {
+        padding-top: 50px;
+    }
+    /*-------------- Artist Page End --------------*/
+}
+@media screen and (max-width: 991px) {
+    .header-black-bg{
+        top: -30px;
+    }
+    .header-block .menu-nav-block {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-1);
+        z-index: 1;
+        padding: 100px 0px 30px;
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+        overflow: hidden;
+    }
+    .mobile-open .header-block .menu-nav-block {
+        opacity: 1;
+        visibility: visible;
+        top: 0px;
+    }
+    .menu-nav{
+        height: 100%;
+        padding: 0 70px;
+        overflow: auto;
+    }
+    .menu-nav ul > li {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .menu-nav > ul > li > a{
+        padding: 15px 0;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .menu-toggle-btn {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 2;
+    }
+    .header-block{
+        justify-content: space-between;
+        padding: 25px 15px;
+    }
+    .logo-hold {
+        z-index: 100;
+        margin: 0 10px 0 0;
+    }
+    .active--menu{
+        display: none;
+    }
+    .menu-nav ul li:hover .dropdown-submenu {
+        transform: unset;
+    }
+    .has-submenu > a:after  {
+        content: '\f105';
+        font-family: FontAwesome;
+        color: var(--color-3);
+        font-size: 25px;
+        position: absolute;
+        right: -30px;
+        top: 50%;
+        font-weight: 100;
+        transform: translateY(-50%);
+    }
+    .dropdown-submenu {
+        top: 100px;
+        left: unset;
+        right: -100%;
+        height: calc(100% - 100px);
+        opacity: 0;
+        visibility: hidden;
+        transform: unset;
+        overflow: auto;
+        padding: 0 70px 0;
+        z-index: 1;
+    }
+    .inner-menu-open.dropdown-submenu {
+        right: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    .submenu--inner--block{
+        height: 100%;
+    }
+    .submenu--inner-col{
+        width: 100%;
+        padding: 0;
+    }
+    .submenu--inner-col + .submenu--inner-col {
+        padding: 25px 0;
+    }
+    .submenu--inner-col:first-child {
+        border-right: 0
+    }
+    .submenu--inner--heading{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .submenu--inner--content ul li {
+        width:25%;
+    }
+    .dropdown-submenu:after, .dropdown-submenu:before, .submenu--overlay{
+        display: none;
+    }
+    .artists--list--ul {
+        max-height: 100%;
+    }
+    .inner-mobile-open .menu-toggle-btn {
+        display: none;
+    }
+    .inner-mobile-open .inner-back-btn {
+        display: block;
+    }
+    .menu-red-shape{
+        display: block;
+        position: absolute;
+        right: -10px;
+        top: 0;
+    }
+    .menu-shape-small-line{
+        position: absolute;
+        bottom: 0;
+        right: 45%;
+        display: block;
+    }
+    .inner-mobile-open .menu-red-shape, .inner-mobile-open .menu-shape-small-line{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .home-banner-bg-block{
+        margin-left: -20%;
+    }
+    .common-section-title h2, .common-section-title h2, .footer-logo a{
+        font-size: 40px;
+    }
+    .wenn-image-content-block .common-desc {
+        margin: 30px 0;
+    }
+    .unsere-leistungen-section:before{
+        height: 100%;
+    }
+    .unsere-image-block {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .unsere-large-image{
+        width: calc(100% - 130px);
+    }
+    .unsere-small-image{
+        right: 0;
+    }
+    .unsere-content-block{
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+    }
+    .unsere-leistungen-block .common-section-btn{
+        bottom: 0;
+        margin-top: 25px;
+    }
+    .unsere-leistungen-section{
+        padding: 40px 0
+    }
+    .unsere-large-image img{
+        min-height: 350px;
+    }
+    .unsere-leistungen-slider-block{
+        padding: 60px 20px 0;
+    }
+    .unsere-bottom-shape-block{
+        bottom: unset;
+        top: 100%;
+    }
+    .unsere-bottom-shape-block svg {
+        width: 100%;
+        height: 100%;
+    }
+    .unsere-left-shape-block, .u-text, .d-text, .t-text, .n-text, .s-text{
+       display: none;
+    }
+    .unsere-artists-img-block {
+        max-width: 330px;
+        margin-left: 50px;
+    }
+    .unsere-artists-box {
+        padding-top: 150px;
+    }
+    .unsere-artists-owl.owl-carousel .owl-nav button.owl-next {
+        right: -5%;
+    }
+    .unsere-artists-owl.owl-carousel .owl-nav button.owl-prev {
+        left: -5%;
+    }
+    .das-sagen-slider {
+        max-width: 650px;
+    }
+    .das-sagen-content .common-desc {
+        max-width: 515px;
+    }
+    .das-sagen-box:after{
+        left: 14px;
+    }
+    .hol-dir-weitere-content .common-desc p{
+        font-size: 18px;
+    }
+    .hol-dir-weitere-content .common-desc {
+        padding: 20px 0 30px;
+    }
+    .hol-dir-weitere-content {
+        max-width: 520px;
+    }
+    .hol-dir-weitere-section {
+        padding: 70px 0;
+    }
+    .common-div-half-content .common-desc p {
+        font-size: 16px;
+    }
+    .galerie-bottom-shape svg {
+        max-width: 340px;
+    }
+    .jetzt-dir-block, .wurfle-dir-block{
+        align-items: center;
+    }
+    .footer-title h3{
+        margin: 10px 0 25px;
+        font-size: 22px;
+    }
+    .footer-wrapper {
+        margin-top: 95px;
+    }
+    .leistungen-page .common-banner-section .home-banner-content-block{
+        left: 0;
+        text-align: center;
+    }
+    .leistungen-page .common-banner-section .home-banner-three-label{
+        padding: 0;
+        text-align: center;
+    }
+    .leistungen-page .common-banner-section .banner_info {
+        margin: 0 auto 60px;
+    }
+    .un-tattoo-artists-block .un-list-col {
+        margin-bottom: 60px;
+    }
+    .un-tattoo-artists-section{
+        padding-bottom: 100px;
+    }
+
+    /*-------------- Contact Page Start --------------*/
+    .common-banner-section .home-banner-content-block {
+        left: 0;
+        top: 53%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .common-banner-section .banner_info {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .common-banner-section .home-banner-three-label {
+        padding-left: 0;
+    }
+    .telephone_block h3 a {
+        font-size: 30px;
+    }
+    .contact_section {
+        padding-top: 100px;
+    }
+    .map_box {
+        height: 500px;
+    }
+    /*-------------- Contact Page End --------------*/
+    /*-------------- News Page Start --------------*/
+    .news-page .common-banner-section .home-banner-content-block {
+        margin: 0 auto;
+    }
+    .haben_section {
+        padding-top: 50px;
+    }
+    .was_haben_inner h2 {
+        font-size: 18px;
+    }
+    .muskelaufbau-rd p,
+    .was_haben_inner .moretext,
+    .haben_block3 .muskelaufbau-lr>p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .section_underline {
+        padding-bottom: 30px;
+    }
+    .haben_block2,
+    .haben_block3 {
+        padding-top: 30px;
+    }
+    .haben_block3 .muskelaufbau-lr>p {
+        margin-top: 15px;
+    }
+    .jetzt_section {
+        margin-top: 100px;
+    }
+    .jetzt_block {
+        padding-right: 15px;
+        max-width: calc(100% - 362px);
+    }
+    .jetzt_image_block {
+        max-width: 362px;
+    }
+    .jetzt_block h3 {
+        letter-spacing: 7px;
+        font-size: 24px;
+    }
+    .jetzt_block p {
+        padding-top: 7px;
+        padding-bottom: 15px;
+    }
+    /*-------------- News Page End --------------*/
+    /*-------------- Studio Page Start --------------*/
+    .studio-page .common-banner-section .home-banner-content-block {
+        margin-left: 0;
+    }
+    .studio-page .common-banner-section .home-banner-three-label {
+        padding-left: 0%;
+    }
+    .skin_stories_text {
+        left: -20px;
+        bottom: -90px;
+    }
+    .skin_stories_text .skin_text h2 {
+        font-size: 30px;
+        max-width: 301px;
+    }
+    .das_long_img {
+        max-width: 360px;
+        height: 815px;
+    }
+    .dein_inner {
+        padding-top: 70px;
+    }
+    .dein_title h3 {
+        font-size: 62px;
+    }
+    .both_images {
+        max-width: 293px;
+    }
+    .dein_title {
+        top: -50px;
+    }
+    #gray_lines {
+        width: 200px;
+        top: -70px;
+    }
+    .leftside_data {
+        padding-right: 40px;
+    }
+    .rightside_data {
+        padding-left: 40px;
+    }
+    .data_list {
+        padding-bottom: 35px;
+    }
+    .data_list p,
+    .data_list span {
+        font-size: 18px;
+    }
+    .tab_buttons button {
+        padding: 5px 20px;
+        font-size: 18px;
+    }
+    .tabcontent {
+        padding: 40px 30px;
+    }
+    .table_btn {
+        padding-top: 120px;
+    }
+    .slider-thumb .slick-slide {
+        height: 250px;
+        margin: 30px 0;
+    }
+    .slider-preview {
+        width: 370px;
+        margin-right: 0;
+        margin: 0 auto;
+    }
+    .slider-preview .type-image {
+        height: 370px;
+    }
+    .slider-gallery .slider-thumb .slider_arow_up {
+        width: 30px;
+        top: 147px;
+    }
+    .slider-gallery .slider-thumb .slider_arow_down {
+        width: 30px;
+        bottom: 147px;
+    }
+    .unser_block .row .col-12:nth-child(n+4) {
+        padding-top: 40px;
+    }
+    .unser_tatto_section {
+        padding-top: 0px;
+    }
+    .maxime_info {
+        max-width: 640px;
+    }
+    .maxime_btn {
+        margin-top: 30px;
+    }
+    .maxime_right_block {
+        padding-top: 30px;
+    }
+    .maxime_section .unsere-artists-content {
+        max-width: 255px;
+        right: -225px;
+    }
+    .quote_one {
+        top: 0px;
+    }
+    .quote_two {
+        right: 20px;
+    }
+    .maxime_section .unsere-artists-img-block {
+        max-width: 268px;
+    }
+    .artwork_big_img_block {
+        height: 400px;
+    }
+    .artwork_small_img_block {
+        height: 220px;
+    }
+    /*-------------- Studio Page End --------------*/
+    /*-------------- Artist Page Start --------------*/
+    .gallary_block .row .gallary_img_box:nth-child(n+4) {
+        padding-top: 30px;
+    }
+    .gallary_section {
+        padding-top: 120px;
+    }
+    /*-------------- Artist Page End --------------*/
+
+}
+@media screen and (max-width: 767px) {
+    .submenu--inner--content ul li {
+        width: 33.333%;
+    }
+    .submenu--inner--block {
+        max-width: 550px;
+    }
+    .home-main-title h1 {
+        font-size: 60px;
+        letter-spacing: 10px;
+    }
+    .home-banner-three-label ul li a{
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+    .home-banner-content-block {
+        max-width: 420px;
+    }
+    .home-banner-three-label ul li a:after{
+        right: -15px;
+    }
+    .home-banner-bg-block {
+        margin-left: -35%;
+    }
+    .wenn-title-block {
+        max-width: 440px;
+    }
+    .wenn-image-content-block{
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .wenn-img-block img{
+        border-radius: 0;
+    }
+    .unsere-large-image img {
+        min-height: 250px;
+    }
+    .unsere-small-image{
+        max-width: 180px;
+    }
+    .unsere-urlhash-ul ul li a{
+        font-size: 14px;
+    }
+    .unsere-urlhash-ul ul li.active a{
+        font-size: 18px;
+    }
+    .unsere-urlhash-ul ul li + li {
+        margin-left: 30px;
+    }
+    .unsere-leistungen-slider-block{
+        padding-top: 40px;
+    }
+    .unsere-leistungen-section{
+        margin-top: 0;
+    }
+    .unsere-large-image {
+        width: calc(100% - 70px);
+    }
+    .unsere-artists-slider {
+        display: none;
+    }
+    .unsere-artists-section{
+        padding: 100px 0 80px;
+    }
+    .unsere-artists-list-slider {
+        max-width: 95%;
+        margin: 40px auto 0;
+    }
+    .un-artists-title-img a p {
+        margin-top: -20px;
+    }
+    .das-sagen-box:after, .das-sagen-shape-bottom{
+        display: none;
+    }
+    .das-sagen-box-clip-path{
+        clip-path: unset;
+        -webkit-clip-path: unset;
+        background-color: transparent;
+        padding: 30px 25px;
+        min-height: auto;
+    }
+    .das-sagen-slider {
+        max-width: 100%;
+        margin: 0;
+    }
+    .das-sagen-section:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: var(--color-3);
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(0 0, 100% 15%, 100% 98%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 15%, 100% 98%, 0 100%);
+    }
+    .das-sagen-section {
+        padding: 0;
+        margin: 80px 0;
+    }
+    .das-sagen-block .common-section-title h2 {
+        color: var(--color-1);
+        text-align: left;
+        padding-left: 25px;
+    }
+    .das-sagen-block{
+        position: relative;
+        padding: 150px 0 50px;
+    }
+    .das-sagen-box{
+        margin-bottom: 0;
+    }
+    .das-sagen-owl.owl-theme .owl-dots .owl-dot.active span {
+        background-color:  var(--color-1);;
+    }
+    .das-sagen-owl.owl-theme .owl-dots .owl-dot span {
+        border-color: var(--color-1);;
+    }
+    .das-sagen-owl.owl-carousel .owl-nav .owl-prev {
+        left: -15px;
+    }
+    .das-sagen-owl.owl-carousel .owl-nav .owl-next {
+        right: -15px;
+    }
+    .das-sagen-owl.owl-theme .owl-nav [class*=owl-] svg path {
+       stroke: var(--color-1);
+    }
+    .das-sagen-owl.owl-theme .owl-nav [class*=owl-] svg {
+        max-width: 30px;
+    }
+    .das-sagen-content .common-desc {
+        max-width: 100%;
+    }
+    .quotes-icon{
+        bottom: -20px;
+    }
+    .das-sagen-owl.owl-carousel .owl-dot {
+        margin-top: 15px;
+    }
+    .hol-dir-weitere-content {
+        max-width: 410px;
+    }
+    .hol-dir-weitere-section{
+        background-position: 75% 100%;
+    }
+    .common-col-div-section {
+        padding: 80px 0;
+    }
+    .mobile-common-half-btn {
+        display: block;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .common-div-half-content{
+        text-align: center;
+    }
+    .common-div-half-content .common-section-btn{
+        display: none;
+    }
+    .common-div-half-content .common-desc{
+        text-align: left;
+    }
+    .common-div-half-image img{
+        min-height: auto;
+        border-radius: 0;
+    }
+    .galerie-slider-block {
+        padding-top: 50px;
+        max-width: 94%;
+        margin: 0 auto;
+    }
+    .galerie-owl .item {
+        padding: 0;
+    }
+    .galerie-bottom-shape{
+        display: none;
+    }
+    .galerie-slider-block .common-section-btn {
+        padding-top: 50px;
+    }
+    .galerie-box img{
+        border-radius: 10px;
+    }
+    .jetzt-dir-block .common-div-half-image img{
+        height: auto;
+    }
+    .faq-row {
+        margin: 0 -15px;
+    }
+    .faq-col {
+        padding: 0 15px;
+        width: 100%;
+    }
+    .faq-col + .faq-col{
+        margin-top: 30px;
+    }
+    .ct_accordion_wrap + .ct_accordion_wrap {
+        margin-top: 15px;
+        padding-top: 15px;
+    }
+    .haufig-faq-block {
+        margin-top: 50px;
+    }
+    .haufig-faq-section {
+        padding-bottom: 80px;
+    }
+    .footer-col + .footer-col{
+        margin-top: 50px;
+    }
+    .copyright-menu ul{
+        margin: unset;
+    }
+    .footer-block{
+        padding: 50px 0;
+    }
+    .copy-rights-block {
+        padding-bottom: 50px;
+    }
+    .klassisches-slider-block{
+        padding: 0 30px;
+    }
+    .klassisches-content-block, .left-item .klassisches-content-block{
+        position: unset;
+        padding: 0;
+        text-align: center;
+        transform: unset;
+        max-width: 100%;
+    }
+    .klassisches-content-block .common-section-title,  .klassisches-content-block .common-section-btn, .more_main .moreless-button  {
+        display: none;
+    }
+    .mobile-kalssi-title{
+        display: block;
+        margin: 0 -15px 30px;
+    }
+    .mobile-kalssi-btn {
+        display: block;
+        margin-top: 30px;
+    }
+    .more_main .common-mehre-dazu{
+        display: block;
+    }
+    .klassisches-section{
+        padding-top: 20px;
+    }
+    .un-tattoo-artists-block .unsere-artists-list-slider {
+        padding-top: 0;
+    }
+    .un-tattoo-artists-block .un-list-col{
+        margin-bottom: 0;
+    }
+    .un-tattoo-artists-section {
+        padding: 0 0 30px;
+    }
+    .unsere-artworks-section{
+        display: none;
+    }
+
+    /*-------------- Contact Page Start --------------*/
+    .common-banner-section .home-banner-three-label {
+        margin-top: 40px;
+    }
+    .common-banner-section .home-main-title h1 {
+        font-size: 55px;
+    }
+    .common-banner-section .banner_info h2 {
+        font-size: 22px;
+    }
+    .contact_row .col-5 {
+        display: none;
+    }
+    .contact_row .col-7 {
+        flex: unset;
+        max-width: 100%;
+    }
+    .first_inputboxs input {
+        margin-bottom: 20px;
+    }
+    .contact_form_inner .common-section-title {
+        text-align: center;
+    }
+    .tatto_price_block {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+    .contact_btn {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-page .footer-wrapper {
+        margin-top: 100px;
+    }
+    .map_section {
+        padding-top: 90px;
+    }
+    .map_box {
+        height: 300px;
+    }
+    /*-------------- Contact Page End --------------*/
+    /*-------------- News Page Start --------------*/
+    .section_underline {
+        border-bottom: 0;
+    }
+    .mobile_image {
+        height: 250px;
+        display: block;
+    }
+    .mobile_image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .was_haben_image {
+        display: none;
+    }
+    .was_haben_inner h2 {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .haben_block3 .muskelaufbau-rd p {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .jetzt_section .jetzt_outer {
+        display: block;
+    }
+    .jetzt_block {
+        padding-right: 0;
+        max-width: 100%;
+    }
+    .jetzt_image_block {
+        max-width: 100%;
+    }
+    .jetzt_block h3,
+    .jetzt_block .common-section-btn {
+        text-align: center;
+    }
+    .jetzt_block p {
+        text-align: left;
+    }
+    .jetzt_block .common-section-btn {
+        margin-top: 30px;
+    }
+    .jetzt_image_block {
+        display: none;
+    }
+    .jetzt_section {
+        margin-top: 70px;
+    }
+    .news-page .common-banner-section .home-banner-three-label {
+        padding-left: 0;
+    }
+    .jetzt_block p {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    /*-------------- News Page End --------------*/
+    /*-------------- Studio Page Start --------------*/
+    .das_img_top_one {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .dein_info_block p,
+    .both_images {
+        max-width: 100%;
+    }
+    .dein_info_block .common-section-btn {
+        text-align: center;
+    }
+    .dein_title h3 {
+        text-align: center;
+        font-size: 100px;
+    }
+    .dein_title {
+        top: -80px;
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%) rotate(352deg);
+        -webkit-transform: translateX(-50%) rotate(352deg);
+        -moz-transform: translateX(-50%) rotate(352deg);
+        -ms-transform: translateX(-50%) rotate(352deg);
+        -o-transform: translateX(-50%) rotate(352deg);
+    }
+    .das_right_block {
+        margin-top: 40px;
+    }
+    .das_long_img {
+        max-width: 100%;
+        height: 445px;
+    }
+    .skin_stories_text {
+        left: 20px;
+    }
+    .prozente_section .jetzt_block p {
+        font-weight: unset;
+    }
+    .data_list p,
+    .data_list span {
+        font-size: 16px;
+    }
+    .rightside_data {
+        padding-left: 30px;
+    }
+    .leftside_data {
+        padding-right: 30px;
+    }
+    .data_list {
+        padding-bottom: 25px;
+    }
+    .tabcontent {
+        margin-top: 20px;
+        padding: 30px 20px;
+    }
+    .tabular_section {
+        padding-top: 80px;
+    }
+    .table_btn {
+        padding-top: 100px;
+    }
+    .slider-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 40px 0;
+    }
+    .studio_slider_section::after {
+        width: 100%;
+        top: 61%;
+        height: 69%;
+    }
+    .slider-preview {
+        width: 500px;
+        margin-bottom: 70px;
+    }
+    .slider-preview .type-image {
+        height: 300px;
+    }
+    .slider-thumb {
+        width: 100%;
+    }
+    .slider-thumb {
+        order: 2;
+    }
+    .slider-thumb .slick-slide {
+        margin: 0 20px;
+        height: 200px;
+    }
+    .slick-dots {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .slick-dots li button {
+        font-size: 0;
+        width: 8px;
+        height: 8px;
+        cursor: pointer;
+        margin-left: 10px;
+        border-radius: 100%;
+        background-color: transparent;
+        border: 1px solid var(--color-4);
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+    }
+    .slick-dots li.slick-active button {
+        width: 10px;
+        height: 10px;
+        background-color: var(--color-4);
+    }
+    .slider-gallery .slider-thumb .slider_arow_up {
+        top: calc(50% - 30px);
+        left: 10px;
+        transform: rotate(0deg) translateY(-50%);
+        -webkit-transform: rotate(0deg) translateY(-50%);
+        -moz-transform: rotate(0deg) translateY(-50%);
+        -ms-transform: rotate(0deg) translateY(-50%);
+        -o-transform: rotate(0deg) translateY(-50%);
+    }
+    .slider-gallery .slider-thumb .slider_arow_down {
+        top: 26%;
+        right: 10px;
+        bottom: unset;
+        left: unset;
+        transform: rotate(178deg) translateY(-50%);
+        -webkit-transform: rotate(178deg) translateY(-50%);
+        -moz-transform: rotate(178deg) translateY(-50%);
+        -ms-transform: rotate(178deg) translateY(-50%);
+        -o-transform: rotate(178deg) translateY(-50%);
+    }
+    .slider-thumb .slick-list {
+        position: relative;
+    }
+    .slider-thumb .slick-list::before {
+        top: 0;
+        left: 0;
+        content: '';
+        width: 40px;
+        z-index: 5;
+        height: 100%;
+        position: absolute;
+        background: transparent;
+        background: -webkit-linear-gradient(to left, transparent 0%, var(--color-1) 100%);
+        background: -moz-linear-gradient(to left, transparent 0%, var(--color-1) 100%);
+        background: linear-gradient(to left, transparent 0%, var(--color-1) 100%);
+    }
+    .slider-thumb .slick-list::after {
+        top: 0;
+        right: 0;
+        z-index: 5;
+        content: '';
+        width: 40px;
+        height: 100%;
+        position: absolute;
+        background: transparent;
+        background: -webkit-linear-gradient(to left, var(--color-1) 0%, transparent 100%);
+        background: -moz-linear-gradient(to left, var(--color-1) 0%, transparent 100%);
+        background: linear-gradient(to left, var(--color-1) 0%, transparent 100%);
+    }
+    .studio_slider_section .container {
+        padding: 0;
+    }
+    .jetzt_bottom {
+        padding-bottom: 140px;
+    }
+    /*-------------- Studio Page End --------------*/
+    /*-------------- Artist Page Start --------------*/
+    .unser_block .row {
+        margin-left: 0;
+    }
+    .unser_upper_text h4 {
+        font-size: 18px;
+    }
+    .unser_link a {
+        font-size: 14px;
+    }
+    .unser_link svg {
+        width: 15px;
+    }
+    .unser_img svg {
+        width: 150px;
+        height: 150px;
+    }
+    .unser_piercing_section {
+        padding-top: 50px;
+    }
+    .unser_slider_both.owl-carousel .owl-dots {
+        margin-top: 20px;
+    }
+    .unser_slider_both.owl-carousel .owl-nav {
+        top: 35%;
+        left: 0;
+        width: 100%;
+        position: absolute;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+    .unser_block .row .col-12 {
+        padding: 0 10px;
+    }
+    .unser_slider_both.owl-carousel .owl-nav .owl-next {
+        position: absolute;
+        right: 0;
+        z-index: 10;
+    }
+    .unser_slider_both.owl-carousel .owl-nav .owl-prev {
+        left: 0;
+        position: absolute;
+    }
+    .unser_info_block {
+        padding-left: 60px;
+        margin-top: -30px;
+    }
+    .unser_link a {
+        margin-top: 5px;
+    }
+    .maxime_section .unsere-artists-img-block {
+        max-width: 228px;
+    }
+    .maxime_section .unsere-artists-content {
+        max-width: 245px;
+        right: -225px;
+        bottom: 7px;
+    }
+    .maxime_info {
+        max-width: 490px;
+    }
+    .maxime_section .unsere-artists-titel h3 {
+        font-size: 26px;
+    }
+    .quote_two {
+        bottom: 70px;
+    }
+    .maxime_section {
+        padding-top: 50px;
+    }
+    .artwork_info_block {
+        display: none;
+    }
+    .artwork_small_img_block {
+        margin-top: 30px;
+        max-width: 100%;
+    }
+    .artwork_block .row:last-child {
+        margin-top: 0px;
+    }
+    .artwork_big_img_block,
+    .artwork_small_img_block {
+        height: 250px;
+    }
+    .gallary_img_box {
+        display: block;
+    }
+    .load_more_btn {
+        display: none;
+    }
+   
+    .shadow_left {
+        top: 0;
+        left: 0px;
+    }
+    .shadow_right {
+        top: 0;
+        right: -11px;
+    }
+    .gallary_slider {
+        margin-left: 0;
+    }
+    .gallary_block {
+        position: relative;
+    }
+    .gallary_slider.owl-theme .owl-nav {
+        position: absolute;
+        width: 100%;
+        top: 33%;
+        z-index: 10;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+    .gallary_slider.owl-carousel .owl-nav button.owl-next,
+    .gallary_slider.owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        z-index: 10;
+    }
+    .gallary_slider.owl-carousel .owl-item {
+        position: relative;
+        z-index: 5;
+    }
+    .gallary_slider.owl-carousel .owl-nav button.owl-next {
+        right: 20px;
+    }
+    .gallary_slider.owl-carousel .owl-nav button.owl-prev {
+        left: 20px;
+    }
+    .gallary_slider.owl-theme .owl-dots {
+        padding-top: 30px;
+    }
+    .gallary_slider {
+        z-index: unset;
+    }
+    /*-------------- Artist Page End --------------*/
+
+}
+@media screen and (max-width: 575px) {
+    .submenu--inner--content ul li {
+        width: 50%;
+    }
+    .submenu--inner--block {
+        max-width: 330px;
+    }
+    .artists--list--ul {
+        max-height: 600px;
+        position: relative;
+    }
+    .mCustomScrollBox{
+        position: unset;
+    }
+    .mCSB_scrollTools{
+        margin-right: -25px;
+    }
+    .artists--name{
+        font-size: 14px;
+    }
+    .home-banner-three-label ul, .home-banner-desktop-shape{
+        display: none;
+    }
+    .home-banner-mobile-shape{
+        display: block;
+    }
+    .home-banner-bg-block {
+        max-width: 225px;
+        margin-left: -10px;
+    }
+    .common-btn{
+        font-size: 14px;
+        padding: 12px 18px;
+    }
+    .home-banner-content-block {
+        left: 0;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        padding-top: 100px;
+        z-index: 10;
+    }
+    .wenn-img-block img {
+        min-height: 200px;
+        object-fit: cover;
+    }
+    .common-section-title h2, .footer-logo a{
+        font-size: 30px;
+    }
+    .wenn-title-block {
+        max-width: 400px;
+    }
+    .wenn-nur-das-section{
+        padding-top: 20px;
+    }
+    .hygiene-slider-section{
+        padding-top: 0;
+    }
+    .hygiene-owl.owl-theme .owl-nav [class*=owl-] svg, .galerie-owl.owl-theme .owl-nav [class*=owl-] svg {
+        max-width: 25px;
+    }
+    .hygiene-owl.owl-carousel .owl-nav button.owl-next {
+        right: -25px;
+    }
+    .hygiene-owl.owl-carousel .owl-nav button.owl-prev {
+       left: -25px;
+    }
+    .unsere-leistungen-ttile-block .common-section-title {
+        margin-bottom: 10px;
+    }
+    .unsere-image-block img {
+        border-radius: 0;
+    }
+    .mobile-bottom-unsere{
+        display: block;
+    }
+    .desk-bottom-unsere{
+        display: none;
+    }
+    .unsere-bottom-shape-block{
+        width: 100%;
+    }
+    .unsere-artists-section {
+        padding: 70px 0;
+    }
+    .hol-dir-weitere-content {
+        max-width: 320px;
+    }
+    .hol-dir-weitere-section {
+        background-position: 60% 100%;
+    }
+    .galerie-slider-block .common-section-btn, .galerie-slider-block {
+        padding-top: 30px;
+    }
+    .galerie-owl.owl-theme .owl-nav [class*=owl-]{
+        top: 40%;
+    }
+    .galerie-owl.owl-carousel .owl-nav button.owl-next {
+        right: -33px;
+    }
+    .galerie-owl.owl-carousel .owl-nav button.owl-prev {
+        left: -33px;
+    }
+    .footer-wrapper {
+        margin-top: 60px;
+    }
+    .leistungen-page .hygiene-slider-section{
+        padding-top: 50px;
+    }
+
+    /*-------------- Contact Page Start --------------*/
+    .common-banner-section .home-banner-content-block, .leistungen-page .common-banner-section .home-banner-content-block {
+        top: 53%;
+        max-width: 275px;
+        margin: 0 auto;
+    }
+    .common-banner-section .banner_info {
+        display: none;
+    }
+    .two_inputbox input {
+        width: 100%;
+    }
+    .two_inputbox {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .tatto_block {
+        margin-right: 0px;
+    }
+    .form_checkbox label {
+        margin-bottom: 30px;
+    }
+    .map_section {
+        display: none;
+    }
+    .contact_section {
+        padding-top: 60px;
+    }
+    .contact_form_inner .common-section-title p {
+        padding-top: 20px;
+    }
+    .mobile_image {
+        height: 177px;
+    }
+    .contact-page .footer-wrapper {
+        margin-top: 100px;
+    }
+    /*-------------- Contact Page End --------------*/
+    /*-------------- News Page Start --------------*/
+    .cd_mehr_dazu {
+        font-size: 14px;
+    }
+    .muskelaufbau-rd p {
+        margin-top: 30px;
+    }
+    .was_haben_inner h2 {
+        padding-bottom: 30px;
+    }
+    /*-------------- News Page End --------------*/
+    /*-------------- Studio Page Start --------------*/
+    .studio-page .common-banner-section .home-banner-content-block {
+        margin: 0 auto;
+    }
+    .das_title h2 {
+        margin-bottom: 30px;
+    }
+    .dein_title h3 {
+        font-size: 87px;
+    }
+    .dein_title {
+        top: -60px;
+    }
+    .dein_info_block p {
+        font-size: 14px;
+    }
+    .table_block {
+        display: block;
+    }
+    .leftside_data {
+        z-index: 3;
+        padding-right: 0;
+        position: relative;
+    }
+    .rightside_data {
+        padding-left: 0px;
+        border-left: 0;
+    }
+    .leftside_data .data_list:last-child {
+        padding-bottom: 25px;
+    }
+    .tab_titles {
+        justify-content: center;
+    }
+    .tabcontent {
+        padding: 30px;
+        margin: 0 -15px;
+        margin-top: 20px;
+    }
+    .mobile-bottom-pattern {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .skin_stories_text .skin_text h2 {
+        font-weight: 400;
+        font-style: normal;
+    }
+    .gray_pattern,
+    .desktop-bottom-pattern {
+        display: none;
+    }
+    .tab_bottom_design {
+        left: -14px;
+        width: calc(100% + 30px);
+    }
+    .table_btn {
+        padding-top: 70px;
+    }
+    .slider-thumb .slick-slide {
+        margin: 0 10px;
+        height: 165px;
+    }
+    .slider-preview {
+        width: 400px;
+        margin-bottom: 50px;
+    }
+    .slider-gallery .slider-thumb .slider_arow_up {
+        top: calc(50% - 30px);
+    }
+    .slider-gallery .slider-thumb .slider_arow_down,
+    .slider-gallery .slider-thumb .slider_arow_up {
+        width: 20px;
+    }
+    .slider-gallery .slider-thumb .slider_arow_down {
+        top: 22%;
+    }
+    .studio_slider_section {
+        margin-top: 130px;
+    }
+    .slider-preview .type-image {
+        height: 240px;
+    }
+    .jetzt_bottom {
+        padding-bottom: 100px;
+    }
+    /*-------------- Studio Page End --------------*/
+    /*-------------- Artist Page Start --------------*/
+    .maxime_info {
+        max-width: 370px;
+    }
+    .round_arrow {
+        display: none;
+    }
+    .maxime_section .unsere-artists-img-block {
+        margin: 0 auto;
+    }
+    .maxime_section .unsere-artists-content {
+        position: unset;
+    }
+    .maxime_info {
+        padding-bottom: 0px;
+    }
+    .unsere-artists-content {
+        display: none;
+    }
+    .maxime_mobile_view_info {
+        padding-top: 20px;
+        display: block;
+        text-align: center;
+    }
+    .maxime_section .unsere-artists-titel h3 {
+        font-size: 28px;
+    }
+    .maxime_section .line-ar {
+        margin: 10px auto;
+    }
+    .maxime_section .common-desc {
+        margin: 0 auto;
+        max-width: 250px;
+    }
+    /*-------------- Artist Page End --------------*/
+}
+@media screen and (max-width: 450px) {
+    .submenu--inner--block {
+        max-width: 100%;
+    }
+    .home-main-title h1{
+        font-size: 36px;
+        letter-spacing: 8px;
+    }
+    .home-banner-content-block{
+        max-width: 275px;
+    }
+    .common-btn{
+        text-align: center;
+        width: 100%;
+    }
+    .common-section-label p{
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .common-section-title h2, .footer-logo a{
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
+    .wenn-title-block {
+        max-width: 300px;
+    }
+    .home-banner-bottom-shape svg{
+        width: auto;
+    }
+    .home-banner-bottom-shape{
+        bottom: -150px;
+    }
+    .common-desc p, .jetzt-dir-block .common-div-half-content .common-desc p{
+        font-size: 14px;
+    }
+    .unsere-small-image{
+        max-width: 130px;
+        bottom: -30px;
+    }
+    .unsere-large-image {
+        width: calc(100% - 50px);
+    }
+    .unsere-large-image img {
+        min-height: 200px;
+    }
+    .unsere-image-block{
+        margin-bottom: 20px;
+    }
+    .un-artists-list-owl.owl-theme .owl-dots {
+        margin-top: 30px;
+    }
+    .common-mehre-dazu a{
+        font-size: 14px;
+    }
+    .un-artists-list-owl.owl-carousel .owl-stage-outer, .galerie-owl.owl-carousel .owl-stage-outer {
+        overflow: visible;
+    }
+    .un-artists-list-owl.owl-carousel, .galerie-owl.owl-carousel {
+        position: unset;
+    }
+    .unsere-artists-list-slider{
+        max-width: 220px;
+    }
+    .un-artists-list-owl.owl-carousel .owl-nav button.owl-next {
+        right: 0px;
+    }
+    .un-artists-list-owl.owl-carousel .owl-nav button.owl-prev {
+        left: 0px;
+    }
+    .unsere-artists-section:after,  .un-tattoo-artists-section:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 55px;
+        height: 100%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        background: transparent;
+        background: -webkit-linear-gradient(to left, var(--color-1) 0%, transparent 100%);
+        background: -moz-linear-gradient(to left, var(--color-1) 0%, transparent 100%);
+        background: linear-gradient(to left, var(--color-1) 0%, transparent 100%);
+    }
+    .quotes-icon{
+        max-width: 25px;
+    }
+    .das-sagen-owl.owl-theme .owl-nav [class*=owl-] svg, .un-artists-list-owl.owl-theme .owl-nav [class*=owl-] svg {
+        max-width: 25px;
+    }
+    .das-sagen-section:before{
+        clip-path: polygon(0 0, 100% 10%, 100% 98%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 10%, 100% 98%, 0 100%);
+    }
+    .das-sagen-block{
+        padding-top: 70px;
+    }
+    .das-sagen-section{
+        margin-top: 50px;
+    }
+    .hol-dir-weitere-content {
+        max-width: 100%;
+    }
+    .hol-mobi-div{
+        max-width: 200px;
+        margin-left: auto;
+        padding-bottom: 25px;
+    }
+    .hol-dir-weitere-section {
+        background-position: 45% 100%;
+    }
+    .common-div-half-content .common-desc p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .common-div-half-content .common-desc {
+        padding: 20px 0 30px;
+    }
+    .galerie-slider-block{
+        max-width: 90%;
+    }
+    .galerie-owl.owl-carousel {
+        padding-right: 30px;
+    }
+    .galerie-owl.owl-theme .owl-dots{
+        margin-right: -30px;
+    }
+    .galerie-owl.owl-theme .owl-nav [class*=owl-] {
+        top: 36%;
+    }
+    .galerie-slider-block:after {
+        content: '';
+        position: absolute;
+        right: -35px;
+        top: 50%;
+        width: 55px;
+        height: 100%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        background: transparent;
+        background: -webkit-linear-gradient(to left, var(--color-1) 0%, transparent 100%);
+        background: -moz-linear-gradient(to left, var(--color-1) 0%, transparent 100%);
+        background: linear-gradient(to left, var(--color-1) 0%, transparent 100%);
+        z-index: 2;
+    }
+    .galerie-slider-block:before{
+        content: '';
+        position: absolute;
+        left: -35px;
+        top: 50%;
+        width: 55px;
+        height: 100%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        background: transparent;
+        background: -webkit-linear-gradient(to left, transparent 0%, var(--color-1) 100%);
+        background: -moz-linear-gradient(to left, transparent 0%, var(--color-1) 100%);
+        background: linear-gradient(to left, transparent 0%, var(--color-1) 100%);
+        z-index: 2;
+    }
+    .galerie-block .common-desc{
+        max-width: 95%;
+    }
+    .galerie-box img{
+        min-height: 164px;
+        object-fit: cover;
+    }
+    .galerie-slider-block .common-section-btn{
+        margin: 0 -15px;
+        position: relative;
+        z-index: 10;
+    }
+    .haufig-faq-block {
+        margin-top: 30px;
+    }
+    .ct_accordion_lable h3, .common-section-desc p{
+        font-size: 14px;
+    }
+    .ct_accordion_lable h3{
+        padding-left: 30px;
+    }
+    .faq-red-icon svg {
+        max-width: 15px;
+    }
+    .ct_accordion_info .common-section-desc {
+        padding: 10px 0 10px 60px;
+    }
+    .ct_accordion_wrap + .ct_accordion_wrap {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .faq-col + .faq-col {
+        margin-top: 20px;
+    }
+    .footer-social-ul ul{
+        margin-top: 20px;
+    }
+    .footer-title h3{
+        font-size: 18px;
+        margin: 0 0 20px;
+    }
+    .footer-address p{
+        font-size: 14px;
+        padding-left: 30px;
+    }
+    .address-icon svg {
+        max-width: 16px;
+    }
+    .footer-address p + p, .footer-desc p + p {
+        margin-top: 10px;
+    }
+    .footer-desc p, .copyright-menu ul li a{
+        font-size: 14px;
+    }
+    .copyright-menu ul{
+        max-width: 259px;
+    }
+    .footer-wrapper {
+        margin-top: 40px;
+    }
+    .mobile-contact-icon {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: var(--color-3);
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    }
+    .mobile_icon_open {
+        width: 17px;
+        height: 17px;
+    }
+    .contact-box-ul{
+        position:absolute;
+        bottom: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease;
+    }
+    .contact-box-ul.contact-ic-open{
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(-70px);
+    }
+    .contact-box-ul li a:hover{
+        width: 40px;
+    }
+    .contact-box-ul li a:hover .contact-ic-label{
+        transform: unset;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .svg-r-arrow{
+        display: none;
+    }
+    .contact-box-icon{
+        right: 40px;
+    }
+    .klassisches-owl.owl-theme .owl-nav [class*=owl-]{
+        top: 50%;
+    }
+    .un-tattoo-artists-section{
+        position: relative;
+    }
+    /*-------------- Contact Page Start --------------*/
+    .tatto_top_icon::after {
+        left: -11px;
+    }
+    .tatto_top_icon svg {
+        width: 45px;
+    }
+    .common-section-title p {
+        font-size: 18px;
+    }
+    .tatto_tage h4 {
+        font-size: 14px;
+    }
+    .tatto_price_block {
+        padding: 30px 0;
+    }
+    .form_checkbox label:before {
+        width: 23px;
+        height: 23px;
+        border-width: 1px;
+    }
+    .form_checkbox label {
+        font-size: 12px;
+        padding-left: 40px;
+    }
+    .form_checkbox label::after {
+        width: 9px;
+        height: 22px;
+        top: -3px;
+        border-right: 3px solid red;
+        border-bottom: 3px solid red;
+    }
+    .form_section input,
+    textarea {
+        padding: 10px 15px;
+    }
+    .common-banner-section .home-main-title h1 {
+        font-size: 36px;
+    }
+    /*-------------- Contact Page End --------------*/
+    /*-------------- News Page Start --------------*/
+    .haben_section {
+        padding-top: 0px;
+    }
+    .jetzt_block p,
+    .was_haben_inner .was_date {
+        font-size: 14px;
+    }
+    /*-------------- News Page End --------------*/
+    /*-------------- Studio Page Start --------------*/
+    .dein_title h3 {
+        letter-spacing: 5px;
+    }
+    .das_long_img {
+        height: 315px;
+    }
+    .skin_stories_text .skin_text h2 {
+        font-size: 24px;
+        max-width: 234px;
+    }
+    .das_right_block {
+        margin-top: 70px;
+    }
+    .dein_info_block .common-section-btn {
+        margin-top: 30px;
+    }
+    .tab_buttons button {
+        padding: 5px 13px;
+        font-size: 14px;
+    }
+    .tab_buttons .tablinks::after {
+        height: 20px;
+    }
+    .data_list p,
+    .data_list span {
+        font-size: 14px;
+    }
+    .slider-thumb .slick-slide {
+        margin: 0 7px;
+    }
+    .slider-preview .type-image {
+        height: 177px;
+    }
+    .slider-preview {
+        width: 320px;
+    }
+    .das_section {
+        padding-top: 0px;
+    }
+    .studio_slider_section::after {
+        height: 73%;
+    }
+    .studio_slider_section::after {
+        top: 61%;
+    }
+    .jetzt_bottom {
+        padding-bottom: 70px;
+    }
+    /*-------------- Studio Page End --------------*/
+    /*-------------- Artist Page Start --------------*/
+    .unser_piercing_section,
+    .unser_tatto_section {
+        position: relative;
+    }
+    .unser_info_block {
+        padding-left: 0;
+    }
+    .unser_slider_both.owl-carousel .owl-stage-outer {
+        overflow: visible;
+    }
+    .unser_block {
+        max-width: 230px;
+        margin: 0 auto;
+    }
+    .unser_slider_both.owl-carousel .owl-nav {
+        z-index: 3;
+        top: 50%;
+    }
+    .unser_circle_block::after {
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+    .unser_circle_block {
+        max-width: 180px;
+        margin: 0 auto;
+    }
+    .unser_slider_both.owl-carousel {
+        position: unset;
+    }
+    .unser_img svg {
+        width: 180px;
+        height: 180px;
+    }
+    .unser_piercing_slider.owl-carousel .owl-nav {
+        top: 57%;
+    }
+    .maxime_info p {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .quote_icon svg {
+        width: 20px;
+    }
+    .quote_one {
+        left: 0px;
+    }
+    .quote_two {
+        right: 0;
+        bottom: 60px;
+    }
+    .artwork_big_img_block,
+    .artwork_small_img_block {
+        height: 177px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .artwork_block .common-section-title {
+        padding-bottom: 40px;
+    }
+    .artwork_section {
+        padding-top: 90px;
+    }
+    .gallary_image_block {
+        max-width: 137px;
+        height: 164px;
+    }
+    .gallary_section {
+        padding-top: 50px;
+    }
+    .gallary_slider.owl-carousel .owl-item {
+        width: 100px;
+    }
+    .gallary_slider.owl-carousel .owl-nav button.owl-next svg,
+    .gallary_slider.owl-carousel .owl-nav button.owl-prev svg {
+        width: 21px;
+    }
+    .gallary_slider.owl-carousel .owl-nav button.owl-next {
+        right: -5px;
+    }
+    .gallary_slider.owl-carousel .owl-nav button.owl-prev {
+        left: -5px;
+    }
+    .gallary_slider.owl-theme .owl-nav {
+        top: 27%;
+    }
+    .gallary_img_box {
+        padding: 0 10px;
+    }
+    .gallary_slider.owl-carousel .owl-item {
+        width: 158px !important;
+    }
+    .shadow_left{
+        left: -10px;
+    }
+    .gallary_section{
+        position: relative;
+    }
+    .gallary_section::before{
+        top: 50%;
+        z-index: 2;
+        width: 55px;
+        content: '';
+        height: 100%;
+        position: absolute;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        background: transparent;
+        background: -webkit-linear-gradient(to left,  transparent 0%, var(--color-1)  100%);
+        background: -moz-linear-gradient(to left,  transparent 0%, var(--color-1)  100%);
+        background: linear-gradient(to left,  transparent 0%, var(--color-1)  100%);
+    }
+    .gallary_section::after,
+    .unser_piercing_section::after,
+    .unser_tatto_section::after{
+        top: 50%;
+        right: 0;
+        z-index: 2;
+        width: 55px;
+        content: '';
+        height: 100%;
+        position: absolute;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        background: transparent;
+        background: -webkit-linear-gradient(to left, var(--color-1) 0%, transparent 100%);
+        background: -moz-linear-gradient(to left, var(--color-1) 0%, transparent 100%);
+        background: linear-gradient(to left, var(--color-1) 0%, transparent 100%);
+    }
+    /*-------------- Artist Page End --------------*/
+
+
+}
+@media screen and (max-width: 400px) {
+    .header-black-bg {
+        top: -40px;
+    }
+    .dropdown-submenu{
+        padding: 0 40px;
+    }
+    .menu-nav{
+        padding:  0 30px;
+    }
+    .header-block{
+        padding: 20px 0;
+    }
+    .inner-back-btn{
+        padding: 0 10px;
+    }
+    .unsere-urlhash-ul ul li + li {
+        margin-left: 15px;
+    }
+    .unsere-urlhash-ul ul li a{
+        font-size: 13px;
+    }
+    .unsere-urlhash-ul ul li.active a {
+        font-size: 13px;
+    }
+    .hol-dir-weitere-section {
+        background-position: 49% 102%;
+    }
+    .galerie-owl.owl-theme .owl-nav [class*=owl-] {
+        top: 34%;
+    }
+    .menu-red-shape{
+        right: -20px;
+    }
+    .footer-top-shape{
+        left: -3px;
+    }
+    .footer-top-shape svg{
+        width: 102%;
+    }
+    .gallary_section::before,
+    .gallary_section::after{
+        width: 40px;
+        height: 170px;
+    }
+
+}
+@media screen and (max-width: 375px) {
+    /*-------------- Studio Page Start --------------*/
+    .dein_inner {
+        padding-top: 50px;
+    }
+    .dein_title h3 {
+        font-size: 72px;
+    }
+    .table_btn {
+        padding-top: 60px;
+    }
+    .unser_slider_both.owl-carousel .owl-nav .owl-next {
+        right: 5px;
+    }
+    .unser_slider_both.owl-carousel .owl-nav .owl-prev {
+        left: 5px;
+    }
+    /*-------------- Studio Page End --------------*/
+}
+@media screen and (max-width: 367px) {
+    .dropdown-submenu {
+        padding: 0 20px;
+    }
+    .unsere-artists-list-slider {
+        max-width: 180px;
+    }
+    .das-sagen-content .common-desc p {
+        font-size: 16px;
+    }
+    .hol-mobi-div{
+        max-width: 180px;
+    }
+    .hol-dir-weitere-content .common-desc p {
+        font-size: 16px;
+    }
+    .galerie-box img{
+        min-height: 140px;
+    }
+    .mCSB_scrollTools {
+        margin-right: -10px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .gallary_slider.owl-carousel .owl-item {
+        width: 128px !important;
+    }
+    .unser_img svg {
+        width: 150px;
+        height: 150px;
+    }
+    .unser_circle_block {
+        max-width: 150px;
+    }
+}
